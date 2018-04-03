@@ -163,9 +163,7 @@ class Instructor:
 def main():
     """ This is the main function of the program. This program creates a new
     repository and prints a summary student table and summary instructor table. """
-    repo1 = Repository("/Users/Rozanitis/Documents/Stevens/SSW-810/files")
+    repo1 = Repository("/Users/Rozanitis/Documents/Stevens/SSW-810/DataRepository/files")
     repo1.student_table()
     repo1.instructor_table()
     sys.exit()
-
-main()
